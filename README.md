@@ -20,3 +20,14 @@ The stimuli come from the [SemEval-2012 Task 2 dataset](https://sites.google.com
 # Dependencies/Credits
 
 All dependencies for the online experiment (not the code for getting the stimuli, which requires the SemEval dataset) have been included. These include [psiTurk](https://psiturk.org/), [jQuery](https://jquery.com/), [Underscore](http://underscorejs.org/), [Backbone](http://backbonejs.org/), [D3](https://d3js.org/), [Bootstrap](http://getbootstrap.com/), and [bootstrap-slider](http://seiyria.com/bootstrap-slider/).
+
+
+```math
+\dot{x}  = \sigma(y-x) 
+
+\dot{y} = \rho x - y - xz 
+
+\dot{z} = -\beta z + xy
+```
+
+`$ \alpha * b =5, \dot{b}$`
