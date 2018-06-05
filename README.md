@@ -32,10 +32,10 @@ All dependencies for the online experiment (not the code for getting the stimuli
 
 `$ \alpha * b =5, \dot{b}$`
 
+Alternatively, math can be written on its own line:
 
-echo "# test_quest" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/hanyushi/test_quest.git
-git push -u origin master
+$$F(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} f(t) \, e^{ - i \omega t}dt$$
+
+\\[\int_0^1 f(t) \mathrm{d}t\\]
+
+\\[\sum_j \gamma_j^2/d_j\\]
